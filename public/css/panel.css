@@ -1,0 +1,32 @@
+body{
+    display: flex;    
+}
+
+
+.mainArea{
+    background-color: aliceblue;
+    height: 100vh;
+    width: calc(100vw - 280px);
+    display: flex;
+    
+}
+
+label{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+input[type = 'text']{
+    /* margin: 15px; */
+}
+
+textarea{
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+#detailsLabel{
+    margin-top: 15px;
+    margin-left: 15px;
+}
